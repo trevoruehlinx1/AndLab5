@@ -24,10 +24,6 @@ namespace PigGame
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Animation
 		{
 			
@@ -2486,6 +2482,9 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
+			// aapt resource value: 0x7F020028
+			public const int fragment1 = 2130837544;
+			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
@@ -2603,8 +2602,8 @@ namespace PigGame
 			// aapt resource value: 0x7F020002
 			public const int relativeLayout1 = 2130837506;
 			
-			// aapt resource value: 0x7F020028
-			public const int relativeLayout2 = 2130837544;
+			// aapt resource value: 0x7F020030
+			public const int relativeLayout2 = 2130837552;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2698,6 +2697,9 @@ namespace PigGame
 			
 			// aapt resource value: 0x7F0C006D
 			public const int snackbar_text = 2131492973;
+			
+			// aapt resource value: 0x7F020029
+			public const int space0 = 2130837545;
 			
 			// aapt resource value: 0x7F020005
 			public const int space1 = 2130837509;
@@ -2974,9 +2976,6 @@ namespace PigGame
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F030002
-			public const int activity_main = 2130903042;
-			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -3018,6 +3017,18 @@ namespace PigGame
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F030002
+			public const int GameActivity = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int GameFragment = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int IntroActivity = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int IntroFragment = 2130903045;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

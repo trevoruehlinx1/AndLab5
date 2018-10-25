@@ -9,8 +9,8 @@ using System.Xml.Serialization;
 
 namespace PigGame
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
+    public class GameActivity : AppCompatActivity
     {
         PigGameLogic gameLogic;
         string player1Name;
@@ -24,7 +24,7 @@ namespace PigGame
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.GameActivity);
 
             // create all of the views
             var newGameButton = FindViewById<Button>(Resource.Id.newGameButton);

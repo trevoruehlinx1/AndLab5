@@ -103,7 +103,6 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debu
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\PigGame.dll
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\PigGame.pdb
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\android\bin\PigGame.PigGame.apk
-C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\activity_main.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\values\colors.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\values\ic_launcher_background.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\values\strings.xml
@@ -125,7 +124,6 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debu
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\mipmap-xxxhdpi\ic_launcher_round.png
-C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout-land\activity_main.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\drawable\die1.png
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\drawable\die2.png
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\drawable\die3.png
@@ -190,5 +188,8 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debu
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\linksrc\System.Web.Services.pdb
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\linksrc\System.Xml.Linq.pdb
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\linksrc\System.Xml.pdb
-C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\bin\Debug\PigGame.dll
-C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\linksrc\PigGame.dll.mdb
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout-land\gameactivity.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\gameactivity.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\introfragment.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\introactivity.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\gamefragment.xml
