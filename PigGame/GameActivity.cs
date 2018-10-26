@@ -7,6 +7,8 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Xml.Serialization;
 using Android.Content;
+using Android.Runtime;
+using Android.Views;
 
 namespace PigGame
 {
@@ -70,6 +72,7 @@ namespace PigGame
                 score1Label.Text = player1Name + "'s Score";
                 score2Label.Text = player2Name + "'s Score";
                 gameLogic.GetPlayerNames(player1Name, player2Name);
+                whosTurnLabel.Text = player1Name + "'s Turn";
                 player1Score = 0;
                 player2Score = 0;
                 diceImageView.SetImageResource(Resource.Drawable.pig);
@@ -78,11 +81,9 @@ namespace PigGame
             {
                 diceImageView.SetImageResource(Resource.Drawable.pig);
                 gameLogic = new PigGameLogic();
-                player1Name = score1Label.Text;
-                player2Name = score2Label.Text;
-                gameLogic.GetPlayerNames(player1Name, player2Name);
-                score1Label.Text = player1Name + "'s Score";
-                score2Label.Text = player2Name + "'s Score";
+                player1Name = Intent.GetStringExtra("name1");
+                player2Name = Intent.GetStringExtra("name2");
+                gameLogic.GetPlayerNames(player1Name,player2Name);
                 scoreTextView1.Text = gameLogic.Player1Score.ToString();
                 scoreTextView2.Text = gameLogic.Player2Score.ToString();
                 whosTurnLabel.Text = player1Name + "'s Turn";
@@ -138,4 +139,8 @@ namespace PigGame
         }
     }
 }
-
+// EXPERIMENTAL STUFF(DETECTING ORIENTATION)
+//var windowManager = ApplicationContext.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
+//var orientation = windowManager.DefaultDisplay.Rotation;
+//if (orientation != Android.Views.SurfaceOrientation.Rotation0)
+//Android.Views.SurfaceOrientation.Rotation270

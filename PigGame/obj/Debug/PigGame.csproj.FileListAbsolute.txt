@@ -192,4 +192,4 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debu
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\introfragment.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\introactivity.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout\gamefragment.xml
-C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout-land\gameactivityland.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 5\PigGame\PigGame\obj\Debug\res\layout-land\gameactivity.xml

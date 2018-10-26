@@ -37,8 +37,11 @@ namespace PigGame
                 }
                 else
                 {
+
                     intent.PutExtra("name1", nameEditText1.Text);
                     intent.PutExtra("name2", nameEditText2.Text);
+                    nameEditText1.Enabled = false;
+                    nameEditText2.Enabled = false;
                     StartActivity(intent);
                 }
             };
