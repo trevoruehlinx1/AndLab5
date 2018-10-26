@@ -26,6 +26,22 @@ namespace PigGame
             var nameEditText2 = FindViewById<EditText>(Resource.Id.textInputEditText2);
             var score1Label = FindViewById<TextView>(Resource.Id.scoreLabel1);
             var score2Label = FindViewById<TextView>(Resource.Id.scoreLabel2);
+            var whosTurnLabel = FindViewById<TextView>(Resource.Id.whosTurnLabel);
+
+            newGameButton.Click += (sender, e) =>
+            {
+                Intent intent = new Intent(this, typeof(GameActivity));
+                if(nameEditText1.Text == "" || nameEditText2.Text == "")
+                {
+                    whosTurnLabel.Text = "Enter a name for each player";
+                }
+                else
+                {
+                    intent.PutExtra("name1", nameEditText1.Text);
+                    intent.PutExtra("name2", nameEditText2.Text);
+                    StartActivity(intent);
+                }
+            };
         }
     }
 }

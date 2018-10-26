@@ -2516,8 +2516,8 @@ namespace PigGame
 			// aapt resource value: 0x7f080094
 			public const int design_navigation_view = 2131230868;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int diceImageView = 2131230888;
+			// aapt resource value: 0x7f0800a2
+			public const int diceImageView = 2131230882;
 			
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
@@ -2528,8 +2528,8 @@ namespace PigGame
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800af
-			public const int endTurnButton = 2131230895;
+			// aapt resource value: 0x7f0800a9
+			public const int endTurnButton = 2131230889;
 			
 			// aapt resource value: 0x7f0800c8
 			public const int end_padder = 2131230920;
@@ -2564,14 +2564,17 @@ namespace PigGame
 			// aapt resource value: 0x7f080058
 			public const int forever = 2131230808;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int fragment1 = 2131230900;
+			// aapt resource value: 0x7f0800ae
+			public const int fragment1 = 2131230894;
+			
+			// aapt resource value: 0x7f0800af
+			public const int fragment2 = 2131230895;
 			
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
 			
-			// aapt resource value: 0x7f08009a
-			public const int headerLabel = 2131230874;
+			// aapt resource value: 0x7f0800b1
+			public const int headerLabel = 2131230897;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -2642,11 +2645,11 @@ namespace PigGame
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int newGameButton = 2131230897;
+			// aapt resource value: 0x7f0800ab
+			public const int newGameButton = 2131230891;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int newPlayersPuttonButton = 2131230898;
+			// aapt resource value: 0x7f0800ac
+			public const int newPlayersPuttonButton = 2131230892;
 			
 			// aapt resource value: 0x7f080022
 			public const int none = 2131230754;
@@ -2675,14 +2678,14 @@ namespace PigGame
 			// aapt resource value: 0x7f08004d
 			public const int pin = 2131230797;
 			
-			// aapt resource value: 0x7f08009b
-			public const int player1Label = 2131230875;
+			// aapt resource value: 0x7f0800b2
+			public const int player1Label = 2131230898;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int pointsForTurnLabel = 2131230890;
+			// aapt resource value: 0x7f0800a4
+			public const int pointsForTurnLabel = 2131230884;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int pointsForTurnTextView = 2131230892;
+			// aapt resource value: 0x7f0800a6
+			public const int pointsForTurnTextView = 2131230886;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -2696,8 +2699,8 @@ namespace PigGame
 			// aapt resource value: 0x7f080099
 			public const int relativeLayout1 = 2131230873;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int relativeLayout2 = 2131230899;
+			// aapt resource value: 0x7f0800ad
+			public const int relativeLayout2 = 2131230893;
 			
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
@@ -2708,8 +2711,8 @@ namespace PigGame
 			// aapt resource value: 0x7f0800c0
 			public const int right_side = 2131230912;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int rollButton = 2131230894;
+			// aapt resource value: 0x7f0800a8
+			public const int rollButton = 2131230888;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2720,17 +2723,17 @@ namespace PigGame
 			// aapt resource value: 0x7f08000e
 			public const int save_scale_type = 2131230734;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int scoreLabel1 = 2131230880;
+			// aapt resource value: 0x7f08009a
+			public const int scoreLabel1 = 2131230874;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int scoreLabel2 = 2131230881;
+			// aapt resource value: 0x7f08009b
+			public const int scoreLabel2 = 2131230875;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int scoreTextView1 = 2131230883;
+			// aapt resource value: 0x7f08009d
+			public const int scoreTextView1 = 2131230877;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int scoreTextView2 = 2131230884;
+			// aapt resource value: 0x7f08009e
+			public const int scoreTextView2 = 2131230878;
 			
 			// aapt resource value: 0x7f080029
 			public const int screen = 2131230761;
@@ -2807,35 +2810,32 @@ namespace PigGame
 			// aapt resource value: 0x7f080043
 			public const int snap = 2131230787;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int space0 = 2131230901;
+			// aapt resource value: 0x7f0800b0
+			public const int space0 = 2131230896;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int space1 = 2131230899;
 			
 			// aapt resource value: 0x7f08009c
-			public const int space1 = 2131230876;
+			public const int space3 = 2131230876;
 			
 			// aapt resource value: 0x7f08009f
-			public const int space2 = 2131230879;
+			public const int space4 = 2131230879;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int space3 = 2131230882;
+			// aapt resource value: 0x7f0800a1
+			public const int space5 = 2131230881;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int space6 = 2131230883;
 			
 			// aapt resource value: 0x7f0800a5
-			public const int space4 = 2131230885;
+			public const int space7 = 2131230885;
 			
 			// aapt resource value: 0x7f0800a7
-			public const int space5 = 2131230887;
+			public const int space8 = 2131230887;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int space6 = 2131230889;
-			
-			// aapt resource value: 0x7f0800ab
-			public const int space7 = 2131230891;
-			
-			// aapt resource value: 0x7f0800ad
-			public const int space8 = 2131230893;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int space9 = 2131230896;
+			// aapt resource value: 0x7f0800aa
+			public const int space9 = 2131230890;
 			
 			// aapt resource value: 0x7f080064
 			public const int spacer = 2131230820;
@@ -2876,11 +2876,11 @@ namespace PigGame
 			// aapt resource value: 0x7f08001b
 			public const int text2 = 2131230747;
 			
-			// aapt resource value: 0x7f08009d
-			public const int textInputEditText1 = 2131230877;
+			// aapt resource value: 0x7f0800b4
+			public const int textInputEditText1 = 2131230900;
 			
-			// aapt resource value: 0x7f08009e
-			public const int textInputEditText2 = 2131230878;
+			// aapt resource value: 0x7f0800b5
+			public const int textInputEditText2 = 2131230901;
 			
 			// aapt resource value: 0x7f08006a
 			public const int textSpacerNoButtons = 2131230826;
@@ -2948,8 +2948,8 @@ namespace PigGame
 			// aapt resource value: 0x7f0800ca
 			public const int visible = 2131230922;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int whosTurnLabel = 2131230886;
+			// aapt resource value: 0x7f0800a0
+			public const int whosTurnLabel = 2131230880;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3137,73 +3137,76 @@ namespace PigGame
 			public const int GameActivity = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int GameFragment = 2130968617;
+			public const int GameActivityLand = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int IntroActivity = 2130968618;
+			public const int GameFragment = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int IntroFragment = 2130968619;
+			public const int IntroActivity = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_action = 2130968620;
+			public const int IntroFragment = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_action_tombstone = 2130968621;
+			public const int notification_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_media_action = 2130968622;
+			public const int notification_action_tombstone = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_media_cancel_action = 2130968623;
+			public const int notification_media_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media = 2130968624;
+			public const int notification_media_cancel_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_big_media_custom = 2130968625;
+			public const int notification_template_big_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media_narrow = 2130968626;
+			public const int notification_template_big_media_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_narrow_custom = 2130968627;
+			public const int notification_template_big_media_narrow = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_custom_big = 2130968628;
+			public const int notification_template_big_media_narrow_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_icon_group = 2130968629;
+			public const int notification_template_custom_big = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_lines_media = 2130968630;
+			public const int notification_template_icon_group = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_media = 2130968631;
+			public const int notification_template_lines_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_media_custom = 2130968632;
+			public const int notification_template_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_part_chronometer = 2130968633;
+			public const int notification_template_media_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_part_time = 2130968634;
+			public const int notification_template_part_chronometer = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int select_dialog_item_material = 2130968635;
+			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int select_dialog_multichoice_material = 2130968636;
+			public const int select_dialog_item_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_singlechoice_material = 2130968637;
+			public const int select_dialog_multichoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int support_simple_spinner_dropdown_item = 2130968638;
+			public const int select_dialog_singlechoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int tooltip = 2130968639;
+			public const int support_simple_spinner_dropdown_item = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int tooltip = 2130968640;
 			
 			static Layout()
 			{

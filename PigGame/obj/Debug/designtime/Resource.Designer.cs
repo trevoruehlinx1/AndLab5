@@ -2452,8 +2452,8 @@ namespace PigGame
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F020017
-			public const int diceImageView = 2130837527;
+			// aapt resource value: 0x7F020011
+			public const int diceImageView = 2130837521;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -2461,8 +2461,8 @@ namespace PigGame
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
 			
-			// aapt resource value: 0x7F020024
-			public const int endTurnButton = 2130837540;
+			// aapt resource value: 0x7F020018
+			public const int endTurnButton = 2130837528;
 			
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
@@ -2482,14 +2482,17 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
-			// aapt resource value: 0x7F020028
-			public const int fragment1 = 2130837544;
+			// aapt resource value: 0x7F020022
+			public const int fragment1 = 2130837538;
+			
+			// aapt resource value: 0x7F020030
+			public const int fragment2 = 2130837552;
 			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
-			// aapt resource value: 0x7F020003
-			public const int headerLabel = 2130837507;
+			// aapt resource value: 0x7F020024
+			public const int headerLabel = 2130837540;
 			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
@@ -2548,11 +2551,11 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020026
-			public const int newGameButton = 2130837542;
+			// aapt resource value: 0x7F020020
+			public const int newGameButton = 2130837536;
 			
-			// aapt resource value: 0x7F020027
-			public const int newPlayersPuttonButton = 2130837543;
+			// aapt resource value: 0x7F020021
+			public const int newPlayersPuttonButton = 2130837537;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2581,14 +2584,14 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x7F020004
-			public const int player1Label = 2130837508;
+			// aapt resource value: 0x7F020025
+			public const int player1Label = 2130837541;
 			
-			// aapt resource value: 0x7F020019
-			public const int pointsForTurnLabel = 2130837529;
+			// aapt resource value: 0x7F020013
+			public const int pointsForTurnLabel = 2130837523;
 			
-			// aapt resource value: 0x7F020021
-			public const int pointsForTurnTextView = 2130837537;
+			// aapt resource value: 0x7F020015
+			public const int pointsForTurnTextView = 2130837525;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2602,8 +2605,8 @@ namespace PigGame
 			// aapt resource value: 0x7F020002
 			public const int relativeLayout1 = 2130837506;
 			
-			// aapt resource value: 0x7F020030
-			public const int relativeLayout2 = 2130837552;
+			// aapt resource value: 0x7F020029
+			public const int relativeLayout2 = 2130837545;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2614,8 +2617,8 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
 			
-			// aapt resource value: 0x7F020023
-			public const int rollButton = 2130837539;
+			// aapt resource value: 0x7F020017
+			public const int rollButton = 2130837527;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -2626,17 +2629,17 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0059
 			public const int save_scale_type = 2131492953;
 			
-			// aapt resource value: 0x7F020009
-			public const int scoreLabel1 = 2130837513;
+			// aapt resource value: 0x7F020003
+			public const int scoreLabel1 = 2130837507;
 			
-			// aapt resource value: 0x7F020010
-			public const int scoreLabel2 = 2130837520;
+			// aapt resource value: 0x7F020004
+			public const int scoreLabel2 = 2130837508;
 			
-			// aapt resource value: 0x7F020012
-			public const int scoreTextView1 = 2130837522;
+			// aapt resource value: 0x7F020006
+			public const int scoreTextView1 = 2130837510;
 			
-			// aapt resource value: 0x7F020013
-			public const int scoreTextView2 = 2130837523;
+			// aapt resource value: 0x7F020007
+			public const int scoreTextView2 = 2130837511;
 			
 			// aapt resource value: 0x7F0C005A
 			public const int screen = 2131492954;
@@ -2698,35 +2701,32 @@ namespace PigGame
 			// aapt resource value: 0x7F0C006D
 			public const int snackbar_text = 2131492973;
 			
-			// aapt resource value: 0x7F020029
-			public const int space0 = 2130837545;
+			// aapt resource value: 0x7F020023
+			public const int space0 = 2130837539;
+			
+			// aapt resource value: 0x7F020026
+			public const int space1 = 2130837542;
 			
 			// aapt resource value: 0x7F020005
-			public const int space1 = 2130837509;
+			public const int space3 = 2130837509;
 			
 			// aapt resource value: 0x7F020008
-			public const int space2 = 2130837512;
+			public const int space4 = 2130837512;
 			
-			// aapt resource value: 0x7F020011
-			public const int space3 = 2130837521;
+			// aapt resource value: 0x7F020010
+			public const int space5 = 2130837520;
+			
+			// aapt resource value: 0x7F020012
+			public const int space6 = 2130837522;
 			
 			// aapt resource value: 0x7F020014
-			public const int space4 = 2130837524;
+			public const int space7 = 2130837524;
 			
 			// aapt resource value: 0x7F020016
-			public const int space5 = 2130837526;
+			public const int space8 = 2130837526;
 			
-			// aapt resource value: 0x7F020018
-			public const int space6 = 2130837528;
-			
-			// aapt resource value: 0x7F020020
-			public const int space7 = 2130837536;
-			
-			// aapt resource value: 0x7F020022
-			public const int space8 = 2130837538;
-			
-			// aapt resource value: 0x7F020025
-			public const int space9 = 2130837541;
+			// aapt resource value: 0x7F020019
+			public const int space9 = 2130837529;
 			
 			// aapt resource value: 0x7F0C006E
 			public const int spacer = 2131492974;
@@ -2767,11 +2767,11 @@ namespace PigGame
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
 			
-			// aapt resource value: 0x7F020006
-			public const int textInputEditText1 = 2130837510;
+			// aapt resource value: 0x7F020027
+			public const int textInputEditText1 = 2130837543;
 			
-			// aapt resource value: 0x7F020007
-			public const int textInputEditText2 = 2130837511;
+			// aapt resource value: 0x7F020028
+			public const int textInputEditText2 = 2130837544;
 			
 			// aapt resource value: 0x7F0C007E
 			public const int textinput_counter = 2131492990;
@@ -2836,8 +2836,8 @@ namespace PigGame
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F020015
-			public const int whosTurnLabel = 2130837525;
+			// aapt resource value: 0x7F020009
+			public const int whosTurnLabel = 2130837513;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -3020,6 +3020,9 @@ namespace PigGame
 			
 			// aapt resource value: 0x7F030002
 			public const int GameActivity = 2130903042;
+			
+			// aapt resource value: 0x7F030006
+			public const int GameActivityLand = 2130903046;
 			
 			// aapt resource value: 0x7F030003
 			public const int GameFragment = 2130903043;

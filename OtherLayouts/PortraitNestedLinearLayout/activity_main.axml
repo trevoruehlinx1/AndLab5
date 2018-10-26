@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:text="The Pig Game!"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:textAlignment="center"
+        p1:id="@+id/headerLabel"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <TextView
+        p1:text="Welcome to the Pig Game!"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:textAlignment="center"
+        p1:id="@+id/whosTurnLabel"
+        p1:shadowColor="@android:color/holo_red_light"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:id="@+id/diceImageView"
+        p1:minHeight="90dp"
+        p1:minWidth="90dp"
+        p1:scaleType="fitXY"
+        p1:layout_width="90dp"
+        p1:layout_height="90dp"
+        p1:layout_marginLeft="145.5dp"
+        p1:layout_marginTop="0.0dp" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="186.0dp"
+        p1:id="@+id/linearLayout2">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="180.5dp"
+            p1:layout_height="129.0dp"
+            p1:id="@+id/linearLayout3">
+            <TextView
+                p1:text="Player 1"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:textAlignment="center"
+                p1:id="@+id/player1Label"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+            <android.support.design.widget.TextInputEditText
+                p1:text=""
+                p1:textAlignment="center"
+                p1:id="@+id/textInputEditText1"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+            <TextView
+                p1:text="Player 1"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:textAlignment="center"
+                p1:id="@+id/scoreLabel1"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+            <TextView
+                p1:text="0"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:textAlignment="center"
+                p1:id="@+id/scoreTextView1"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_marginRight="0dp"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="180.5dp"
+            p1:layout_height="129.0dp"
+            p1:id="@+id/linearLayout4"
+            p1:layout_marginLeft="18.0dp">
+            <TextView
+                p1:text="Player 2"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:textAlignment="center"
+                p1:id="@+id/player1Label"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+            <android.support.design.widget.TextInputEditText
+                p1:text=""
+                p1:textAlignment="center"
+                p1:id="@+id/textInputEditText2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+            <TextView
+                p1:text="Player 2"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:textAlignment="center"
+                p1:id="@+id/scoreLabel2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+            <TextView
+                p1:text="0"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:textAlignment="center"
+                p1:id="@+id/scoreTextView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        p1:text="Points for this turn"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:textAlignment="center"
+        p1:id="@+id/pointsForTurnLabel"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:textAlignment="center"
+        p1:id="@+id/pointsForTurnTextView"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout5"
+        p1:layout_marginLeft="0.0dp"
+        p1:layout_marginTop="34.5dp">
+        <Button
+            p1:text="Roll Die"
+            p1:textAlignment="center"
+            p1:id="@+id/rollButton"
+            p1:layout_width="90dp"
+            p1:layout_height="90dp"
+            p1:layout_marginTop="7.5dp"
+            p1:layout_marginRight="0.0dp"
+            p1:layout_marginLeft="0.0dp" />
+        <Button
+            p1:text="End Turn"
+            p1:textAlignment="center"
+            p1:id="@+id/endTurnButton"
+            p1:layout_width="90dp"
+            p1:layout_height="90dp"
+            p1:layout_marginLeft="0.0dp" />
+        <Button
+            p1:text="New Game"
+            p1:textAlignment="center"
+            p1:id="@+id/newGameButton"
+            p1:layout_width="90dp"
+            p1:layout_height="90dp"
+            p1:layout_marginLeft="31.5dp" />
+        <Button
+            p1:text="New Players"
+            p1:textAlignment="center"
+            p1:id="@+id/newPlayersPuttonButton"
+            p1:layout_width="90dp"
+            p1:layout_height="90dp"
+            p1:layout_marginLeft="0.0dp" />
+    </LinearLayout>
+</LinearLayout>

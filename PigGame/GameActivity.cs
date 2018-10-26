@@ -6,6 +6,7 @@ using System;
 using Newtonsoft.Json;
 using System.IO;
 using System.Xml.Serialization;
+using Android.Content;
 
 namespace PigGame
 {
@@ -31,8 +32,6 @@ namespace PigGame
             var rollButton = FindViewById<Button>(Resource.Id.rollButton);
             var newPlayersButton = FindViewById<Button>(Resource.Id.newPlayersPuttonButton);
             var endTurnButton = FindViewById<Button>(Resource.Id.endTurnButton);
-            var nameEditText1 = FindViewById<EditText>(Resource.Id.textInputEditText1);
-            var nameEditText2 = FindViewById<EditText>(Resource.Id.textInputEditText2);
             var score1Label = FindViewById<TextView>(Resource.Id.scoreLabel1);
             var score2Label = FindViewById<TextView>(Resource.Id.scoreLabel2);
             var scoreTextView1 = FindViewById<TextView>(Resource.Id.scoreTextView1);
@@ -60,49 +59,34 @@ namespace PigGame
                 else
                     whosTurnLabel.Text = gameLogic.Player2Name + "'s Turn";
 
-                nameEditText1.Enabled = false;
-                nameEditText2.Enabled = false;
-
             }
             else
             {
+
                 //Create a new game logic
                 gameLogic = new PigGameLogic();
-                player1Name = "";
-                player2Name = "";
+                player1Name = Intent.GetStringExtra("name1");
+                player2Name = Intent.GetStringExtra("name2");
+                score1Label.Text = player1Name + "'s Score";
+                score2Label.Text = player2Name + "'s Score";
+                gameLogic.GetPlayerNames(player1Name, player2Name);
                 player1Score = 0;
                 player2Score = 0;
-                rollButton.Enabled = false;
-                endTurnButton.Enabled = false;
                 diceImageView.SetImageResource(Resource.Drawable.pig);
             }
             newGameButton.Click += (sender, e) =>
             {
                 diceImageView.SetImageResource(Resource.Drawable.pig);
                 gameLogic = new PigGameLogic();
-                if (nameEditText1.Enabled == true && nameEditText1.Text == ""
-                    || nameEditText2.Text == "" && nameEditText2.Enabled == true)
-                {
-                    whosTurnLabel.Text = "Enter a name for each of the players";
-                }
-
-                else
-                {
-                    rollButton.Enabled = true;
-                    endTurnButton.Enabled = true;
-                    player1Name = nameEditText1.Text;
-                    player2Name = nameEditText2.Text;
-                    gameLogic.GetPlayerNames(player1Name, player2Name);
-                    score1Label.Text = player1Name + "'s Score";
-                    score2Label.Text = player2Name + "'s Score";
-                    scoreTextView1.Text = gameLogic.Player1Score.ToString();
-                    scoreTextView2.Text = gameLogic.Player2Score.ToString();
-                    whosTurnLabel.Text = player1Name + "'s Turn";
-                    pointsForTurnTextView.Text = "0";
-
-                    nameEditText1.Enabled = false;
-                    nameEditText2.Enabled = false;
-                }
+                player1Name = score1Label.Text;
+                player2Name = score2Label.Text;
+                gameLogic.GetPlayerNames(player1Name, player2Name);
+                score1Label.Text = player1Name + "'s Score";
+                score2Label.Text = player2Name + "'s Score";
+                scoreTextView1.Text = gameLogic.Player1Score.ToString();
+                scoreTextView2.Text = gameLogic.Player2Score.ToString();
+                whosTurnLabel.Text = player1Name + "'s Turn";
+                pointsForTurnTextView.Text = "0";
             };
             rollButton.Click += (sender, e) =>
             {
@@ -140,17 +124,8 @@ namespace PigGame
             };
             newPlayersButton.Click += (sender, e) =>
             {
-                nameEditText1.Enabled = true;
-                nameEditText2.Enabled = true;
-                nameEditText1.Text = "";
-                nameEditText2.Text = "";
-                score1Label.Text = "";
-                score2Label.Text = "";
-                scoreTextView1.Text = "";
-                scoreTextView2.Text = "";
-                rollButton.Enabled = false;
-                endTurnButton.Enabled = false;
-                whosTurnLabel.Text = "Enter a name for each of the players";
+                Intent intent = new Intent(this, typeof(IntroActivity));
+                StartActivity(intent);
             };
         }
         protected override void OnSaveInstanceState(Bundle outState)

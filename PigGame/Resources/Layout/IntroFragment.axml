@@ -46,16 +46,16 @@
         p1:id="@+id/space1" />
     <android.support.design.widget.TextInputEditText
         p1:layout_width="170.0dp"
-        p1:layout_height="21.0dp"
-        p1:text="EDITTEXT"
+        p1:layout_height="41.0dp"
+        p1:text=""
         p1:layout_below="@id/space1"
         p1:layout_marginLeft="14.0dp"
         p1:textAlignment="center"
         p1:id="@+id/textInputEditText1" />
     <android.support.design.widget.TextInputEditText
         p1:layout_width="170.0dp"
-        p1:layout_height="21.0dp"
-        p1:text="EDITTEXT"
+        p1:layout_height="41.0dp"
+        p1:text=""
         p1:layout_below="@id/space1"
         p1:layout_alignParentRight="true"
         p1:layout_marginRight="14.0dp"
