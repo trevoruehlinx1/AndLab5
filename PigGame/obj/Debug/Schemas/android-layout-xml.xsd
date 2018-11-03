@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>10/26/2018 4:04:13 PM</xs:documentation>
+    <xs:documentation>10/29/2018 2:46:32 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -286,31 +286,10 @@
     <xs:attribute ref="p1:nextClusterForward" />
     <xs:attribute ref="p1:focusedByDefault" />
     <xs:attribute ref="tools:visibility" />
-    <xs:attribute ref="p1:layout_toLeftOf" />
-    <xs:attribute ref="p1:layout_toRightOf" />
-    <xs:attribute ref="p1:layout_above" />
-    <xs:attribute ref="p1:layout_below" />
-    <xs:attribute ref="p1:layout_alignBaseline" />
-    <xs:attribute ref="p1:layout_alignLeft" />
-    <xs:attribute ref="p1:layout_alignTop" />
-    <xs:attribute ref="p1:layout_alignRight" />
-    <xs:attribute ref="p1:layout_alignBottom" />
-    <xs:attribute ref="p1:layout_alignParentLeft" />
-    <xs:attribute ref="p1:layout_alignParentTop" />
-    <xs:attribute ref="p1:layout_alignParentRight" />
-    <xs:attribute ref="p1:layout_alignParentBottom" />
-    <xs:attribute ref="p1:layout_centerInParent" />
-    <xs:attribute ref="p1:layout_centerHorizontal" />
-    <xs:attribute ref="p1:layout_centerVertical" />
-    <xs:attribute ref="p1:layout_alignWithParentIfMissing" />
-    <xs:attribute ref="p1:layout_toStartOf" />
-    <xs:attribute ref="p1:layout_toEndOf" />
-    <xs:attribute ref="p1:layout_alignStart" />
-    <xs:attribute ref="p1:layout_alignEnd" />
-    <xs:attribute ref="p1:layout_alignParentStart" />
-    <xs:attribute ref="p1:layout_alignParentEnd" />
     <xs:attribute ref="p1:layout_width" />
     <xs:attribute ref="p1:layout_height" />
+    <xs:attribute ref="p1:layout_weight" />
+    <xs:attribute ref="p1:layout_gravity" />
     <xs:attribute ref="p1:layout_margin" />
     <xs:attribute ref="p1:layout_marginLeft" />
     <xs:attribute ref="p1:layout_marginTop" />
@@ -1497,31 +1476,10 @@
     <xs:attribute ref="p1:fragmentAllowEnterTransitionOverlap" />
     <xs:attribute ref="p1:fragmentAllowReturnTransitionOverlap" />
     <xs:attribute ref="tools:layout" />
-    <xs:attribute ref="p1:layout_toLeftOf" />
-    <xs:attribute ref="p1:layout_toRightOf" />
-    <xs:attribute ref="p1:layout_above" />
-    <xs:attribute ref="p1:layout_below" />
-    <xs:attribute ref="p1:layout_alignBaseline" />
-    <xs:attribute ref="p1:layout_alignLeft" />
-    <xs:attribute ref="p1:layout_alignTop" />
-    <xs:attribute ref="p1:layout_alignRight" />
-    <xs:attribute ref="p1:layout_alignBottom" />
-    <xs:attribute ref="p1:layout_alignParentLeft" />
-    <xs:attribute ref="p1:layout_alignParentTop" />
-    <xs:attribute ref="p1:layout_alignParentRight" />
-    <xs:attribute ref="p1:layout_alignParentBottom" />
-    <xs:attribute ref="p1:layout_centerInParent" />
-    <xs:attribute ref="p1:layout_centerHorizontal" />
-    <xs:attribute ref="p1:layout_centerVertical" />
-    <xs:attribute ref="p1:layout_alignWithParentIfMissing" />
-    <xs:attribute ref="p1:layout_toStartOf" />
-    <xs:attribute ref="p1:layout_toEndOf" />
-    <xs:attribute ref="p1:layout_alignStart" />
-    <xs:attribute ref="p1:layout_alignEnd" />
-    <xs:attribute ref="p1:layout_alignParentStart" />
-    <xs:attribute ref="p1:layout_alignParentEnd" />
     <xs:attribute ref="p1:layout_width" />
     <xs:attribute ref="p1:layout_height" />
+    <xs:attribute ref="p1:layout_weight" />
+    <xs:attribute ref="p1:layout_gravity" />
     <xs:attribute ref="p1:layout_margin" />
     <xs:attribute ref="p1:layout_marginLeft" />
     <xs:attribute ref="p1:layout_marginTop" />

@@ -9,6 +9,8 @@ using System.Xml.Serialization;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
+using Android.Content.PM;
+using Android.Content.Res;
 
 namespace PigGame
 {
@@ -25,6 +27,18 @@ namespace PigGame
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            if ((Application.ApplicationContext.Resources.Configuration.ScreenLayout & ScreenLayout.SizeMask) == ScreenLayout.SizeSmall)
+            {
+                RequestedOrientation = ScreenOrientation.Portrait;
+            }
+            if ((Application.ApplicationContext.Resources.Configuration.ScreenLayout & ScreenLayout.SizeMask) == ScreenLayout.SizeNormal)
+            {
+                RequestedOrientation = ScreenOrientation.Portrait;
+            }
+            if ((Application.ApplicationContext.Resources.Configuration.ScreenLayout & ScreenLayout.SizeMask) == ScreenLayout.SizeLarge)
+            {
+                RequestedOrientation = ScreenOrientation.Landscape;
+            }
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.GameActivity);
@@ -125,6 +139,7 @@ namespace PigGame
             };
             newPlayersButton.Click += (sender, e) =>
             {
+                diceImageView.SetImageResource(Resource.Drawable.pig);
                 Intent intent = new Intent(this, typeof(IntroActivity));
                 StartActivity(intent);
             };
